@@ -1,12 +1,14 @@
+# 通知！！！
 
-#通知！！！
-
-现Nolan大佬已经更新至1.2版，安装部署方式有所改变！
-
-以下教程仅适用于1.2以下版本！！
+以下教程仅适用于1.2以下的版本！！
 
 
-##1.2教程请移步
+现Nolan大佬已经更新至1.2版，新版本安装请移步！！！
+[Nolanhzy](https://github.com/NolanHzy/) 
+
+
+
+## Nvjdc1.2版及以上教程
 
 [nvjdcdocker](https://github.com/NolanHzy/nvjdcdocker) 
 
