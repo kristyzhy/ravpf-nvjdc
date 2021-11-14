@@ -1,3 +1,17 @@
+
+#通知！！！
+
+现Nolan大佬已经更新至1.2版，安装部署方式有所改变！
+
+以下教程仅适用于1.2以下版本！！
+
+
+##1.2教程请移步
+
+[nvjdcdocker](https://github.com/NolanHzy/nvjdcdocker) 
+
+
+
 # nvjdc
 Net core5  vue3 puppeteer sharp的一次尝试
 
@@ -71,7 +85,7 @@ cd  /nolanjdc
 （原镜像为0.3，现为1.1，你们直接拉最新的就好了）
 
 ```
-sudo docker pull nolanhzy/nvjdc:latest
+sudo docker pull nolanhzy/nvjdc:1.1
 ```
 
 9启动镜像
@@ -79,7 +93,7 @@ sudo docker pull nolanhzy/nvjdc:latest
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)"/Config.json:/app/Config/Config.json:ro \
 -v "$(pwd)"/.local-chromium:/app/.local-chromium  \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  nolanhzy/nvjdc:1.1
 ```
 
 10查看 日志 
@@ -103,7 +117,7 @@ docker rm -f nolanjdc
 ```
 删除镜像
 ```
-docker rm -f nolanhzy/nvjdc:latest
+docker rm -f nolanhzy/nvjdc:1.1
 ```
 
 进入你以前下载过 浏览器 和JSON配置的文件夹中 
@@ -141,3 +155,4 @@ Config.json 是配置文件 可以热更新 修改后不用重启容器
 
 ## 多谢
 
+[Nolanhzy](https://github.com/NolanHzy/) 
