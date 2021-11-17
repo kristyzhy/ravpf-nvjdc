@@ -18,9 +18,7 @@
 Net core5  vue3 puppeteer sharp的一次尝试
 
 ## 提示
-[TG 频道](https://t.me/joinchat/4nf-VfnBN6pmZDdl) 
 
-[TG 群组](https://t.me/joinchat/dL-NJh1G6bc2OGM1) 
 
 由于我自己的环境是centos x86，arm并未测试
 
@@ -52,11 +50,11 @@ mkdir nolanjdc && cd nolanjdc
 (原大佬库已失效，代码已改成本库)
 
 ```
-wget -O Config.json https://raw.githubusercontent.com/Yiov/nvjdc/main/Config.json
+wget -O Config.json https://raw.githubusercontent.com/ravpf/nvjdc/main/Config.json
 ```
 国内请使用
  ```
-wget -O Config.json https://ghproxy.com/https://raw.githubusercontent.com/Yiov/nvjdc/main/Config.json
+wget -O Config.json https://ghproxy.com/https://raw.githubusercontent.com/ravpf/nvjdc/main/Config.json
 ```
 
 4 创建chromium文件夹并进入
@@ -87,7 +85,7 @@ cd  /nolanjdc
 （原镜像为0.3，现为1.1，你们直接拉最新的就好了）
 
 ```
-sudo docker pull nolanhzy/nvjdc:1.1
+sudo docker pull ravsmoe/nvjdc:latest
 ```
 
 9启动镜像
@@ -95,7 +93,7 @@ sudo docker pull nolanhzy/nvjdc:1.1
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)"/Config.json:/app/Config/Config.json:ro \
 -v "$(pwd)"/.local-chromium:/app/.local-chromium  \
--it --privileged=true  nolanhzy/nvjdc:1.1
+-it --privileged=true  ravsmoe/nvjdc:latest
 ```
 
 10查看 日志 
@@ -119,7 +117,7 @@ docker rm -f nolanjdc
 ```
 删除镜像
 ```
-docker rm -f nolanhzy/nvjdc:1.1
+docker rm -f ravsmoe/nvjdc:latest
 ```
 
 进入你以前下载过 浏览器 和JSON配置的文件夹中 
@@ -133,6 +131,8 @@ cd /root/nolanjdc
 容器启动后第一次获取验证码的时候可能卡住刷新一下即可
 
 Config.json 是配置文件 可以热更新 修改后不用重启容器
+
+docker仓库，github仓库均已备份，放心使用。建议书签，fork跑路
 
 ## 最后
 觉得不错。回来帮我点个star
@@ -156,4 +156,5 @@ Config.json 是配置文件 可以热更新 修改后不用重启容器
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读***
 
 ## 多谢
+
 
