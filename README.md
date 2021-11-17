@@ -1,20 +1,20 @@
-# 通知！！！
+# 通知
+
+
+现Nolan大佬已删库、删镜像，有备份的自行更换代码
 
 以下教程仅适用于1.2以下的版本！！
-
-
-现Nolan大佬已经更新至1.2版，新版本安装请移步！！！
-[Nolanhzy](https://github.com/NolanHzy/) 
 
 
 
 ## Nvjdc1.2版及以上教程
 
-[nvjdcdocker](https://github.com/NolanHzy/nvjdcdocker) 
+[@Nolanhzy](https://github.com/NolanHzy) 
 
 
 
 # nvjdc
+
 Net core5  vue3 puppeteer sharp的一次尝试
 
 ## 提示
@@ -157,4 +157,3 @@ Config.json 是配置文件 可以热更新 修改后不用重启容器
 
 ## 多谢
 
-[Nolanhzy](https://github.com/NolanHzy/) 
